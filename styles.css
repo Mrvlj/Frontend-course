@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  /* text-align: center; */
+}
+h4 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 250px;
+  border-radius: 28px;
+  box-shadow: 10px 10px 14px rgba(0, 0, 0, 0.25);
+}
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+a:hover {
+  color: orange;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+a:visited {
+  /* color: red; */
+}
+
+.list {
+  padding: 0 20 px;
+}
+.list li {
+  color: blueviolet;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table th {
+  padding-bottom: 10px;
+  color: yellowgreen;
+  text-align: left;
+}
+.table td {
+  padding-bottom: 10px;
+  text-align: left;
+}
+.table td:nth-child(1) {
+  color: #367;
+  text-align: left;
+}
+.table td:nth-child(2) {
+  color: #510;
+  text-align: left;
+}
+.table td:nth-child(3) {
+  color: #169;
+  text-align: left;
+}
+
+.form h2 {
+  color: black;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 50%;
+  /* width: calc (50% - 20px); */
+}
+.form-row .form-group:nth-last-child {
+  margin-right: 0;
+}
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  line-height: 1.6em;
+  color: #0f141e;
+  background: #f1f1f1;
+
+  /* letter-spacing: ; */
+  /* word-spacing: ; */
+}
+.wrap-float {
+  margin-left: 100px;
+}
+
+.info-text {
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 40px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+  margin: 0;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+}
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+.bg-purple {
+  background: #f0ffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+@media (max-width: 650px) {
+  .info-text {
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+    display: block;
+  }
+  .avatar {
+    position: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Записи */
+/* Css colors с цветами 
+сайт */
+/* RGB - REDGreenBlue */
+/* значение цвета от до 00-ff */
+
+/* color: (из CSS colors) ; */
+/* или  */
+/* пример color: #00ff00; */
+/* color: #000000 - черный цвет */
+/* color: #ffffff - белый цвет */
+/* если повторяются цвета,то можно в три символа color: #000; */
+/* или обычными числами от 0-255  */
+/* color: rgb(0, 0 ,0); (255, 0 , 0), (0, 100, 0); */
+/* ещё есть прозрачность(opacity) color: rgba(0, 150, 0, 1); Пример вместо "1" , 0.5 */
+/* можно и так: */
+/* color : rgb(0, 150, 0); */
+/* opacity: 0.2;  */
+/* по умолчанию стоит на "1" */
+/* коммент ctrl+?  */
+/* границы .border */
+/* border-width: 2px;
+/*border-style: solid;/dash;
+border-color: red;
+или border: 2px solid red;
+если что-то изменить то border-style: solid/dashed; по отдельности каждый параметр
+border-radius: 50%, 50px закругляет;
+.cirkle{
+  width: 
+  height::
+  background:
+  border-radius: 
+  */
+
+/*div class - указываем и присваиваем название и тогда можем стилизовать в css файле всё остальное.
+  точечное управление для границ - border-bottom: 2px solid darkblue  
+  bottom,top,right,left и так же радиусом, 
+  к примеру: border-bottom-right-radius: 10px 
+  c background
+  border-left: 6px solid red;
+  background: lightsalmon; 
+  отступ/ padding-left:10px
+  color:#fff;
+
+margin - внешние отступы и padding для внутренних
+* { margin:0; padding:0;} margin:auto(будет по середине), но сначала указать div class , max-width:750; padding: 15px;top and bottom, 40px left and right; внутринние отступ.
+15px  40 px   25px     30px
+/* top,  right,  bottom,  left  */
+/* blocks-блоки */
+/* box-sizing: border-box */
+
+/* псевдоселектор a:hover { color: orange;}  для всех элементов  */
+/* a:visited { color:red;} отвечает,за то что перешёл по ссылке (красным к примеру) */
+/* a:active { color :blue;} сыллка становится активной если навести и держать  */
+/* Работа с таблицей .table tr:nth-child(odd/even) { - строчки
+  /* background: #eee;  */
+/* .table tr:nth-child(2) - столбцы */
+/* nth-child, first-child, last-child */
+/* стилизовать блоки inline , block, inline-block  */
+/* label, input, textarea. */
+/* position: absolue, fixed. relative - позиционирорвание элемента. */
+/* .navbar  left:0 right:0 ? top:0 ; z-index:2 - навигационная панель */
+/* @media (max-width: 500px) { */
+/* и параметры
+  font-size:
+  padding: 
+  text-align: 
+} */
