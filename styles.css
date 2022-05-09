@@ -194,23 +194,18 @@ body {
 @media (max-width: 650px) {
   .info-text {
     font-size: 1.5rem;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     display: block;
+    padding-right: 150px;
   }
   .avatar {
     position: center;
   }
+  h1 {
+    line-height: 100%;
+  }
 }
-
-
-
-
-
-
-
-
-
 
 /* Записи */
 /* Css colors с цветами 
